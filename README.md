@@ -2,6 +2,8 @@
 
 Based on the original plugin for [Vim](https://github.com/mortberg/cubicaltt/blob/master/cubicaltt.vim) and [GNU Emacs](https://github.com/mortberg/cubicaltt/blob/master/cubicaltt.el).
 
+![Screenshot](screenshot.png)
+
 # Installation
 
 ```
