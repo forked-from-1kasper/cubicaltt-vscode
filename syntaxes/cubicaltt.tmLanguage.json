@@ -1,0 +1,34 @@
+{
+    "name": "cubicaltt",
+    "fileTypes": [
+        "ctt"
+    ],
+    "patterns": [
+        {
+            "begin": "{-",
+            "end": "-}",
+            "name": "comment.block.cubicaltt"
+        },
+        {
+            "match": "--.*$",
+            "name": "comment.line.double-dash.cubicaltt"
+        },
+        {
+            "match": "\\b(hdata|data|import|mutual|let|in|split|with|module|where|U|opaque|transparent|transparent_all)\\b",
+            "name": "keyword.other.cubicaltt"
+        },
+        {
+            "match": "\\b(PathP|comp|transport|fill|Glue|glue|unglue|Id|idC|idJ)\\b",
+            "name": "keyword.control.cubicaltt"
+        },
+        {
+            "match": "(:|->|=|\\\\|\\*|_|<|>|\\\\/|/\\\\|-|@)",
+            "name": "keyword.other.cubicaltt"
+        },
+        {
+            "match": "^[[:word:]']+",
+            "name": "entity.name.function.cubicaltt"
+        }
+    ],
+    "scopeName": "source.cubicaltt"
+}

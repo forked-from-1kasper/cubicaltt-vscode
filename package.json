@@ -1,0 +1,32 @@
+{
+    "name": "cubicaltt",
+    "displayName": "cubicaltt",
+    "version": "0.0.1",
+    "description": "cubicaltt syntax highlighting for Visual Studio Code",
+    "publisher": "siegmentationfault",
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forked-from-1kasper/cubicaltt-vscode"
+    },
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "cubicaltt",
+            "extensions": [
+                ".ctt"
+            ]
+        }],
+        "grammars": [
+            {
+                "language": "cubicaltt",
+                "scopeName": "source.cubicaltt",
+                "path": "./syntaxes/cubicaltt.tmLanguage.json"
+            }
+        ]
+    }
+}
