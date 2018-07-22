@@ -19,7 +19,8 @@
             "id": "cubicaltt",
             "extensions": [
                 ".ctt"
-            ]
+            ],
+            "configuration": "./cubical-configuration.json"
         }],
         "grammars": [
             {
