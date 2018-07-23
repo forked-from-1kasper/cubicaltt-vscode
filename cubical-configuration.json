@@ -3,6 +3,10 @@
         ["(", ")"],
         ["[", "]"]
     ],
+    "comments": {
+        "lineComment": "--",
+        "blockComment": ["{-", "-}"]
+    },
     "surroundingPairs": [
         ["(", ")"],
         ["[", "]"],
