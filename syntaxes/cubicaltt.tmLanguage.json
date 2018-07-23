@@ -28,6 +28,10 @@
         {
             "match": "^[[:word:]']+",
             "name": "entity.name.function.cubicaltt"
+        },
+        {
+            "match": "\\bundefined\\b",
+            "name": "invalid.illegal.cubicaltt"
         }
     ],
     "scopeName": "source.cubicaltt"
