@@ -22,7 +22,7 @@
             "name": "keyword.control.cubicaltt"
         },
         {
-            "match": "(:|->|=|\\\\|\\*|_|<|>|\\\\/|/\\\\|-|@)",
+            "match": "(:|->|=|\\\\|\\*|_|<|>|\\/|/\\\\|-|@)",
             "name": "keyword.other.cubicaltt"
         },
         {
