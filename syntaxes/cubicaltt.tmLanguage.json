@@ -18,7 +18,7 @@
             "name": "keyword.other.cubicaltt"
         },
         {
-            "match": "\\b(PathP|LineP|V|comp|hcomp|hcom|coe|transport|fill|Glue|glue|unglue|Id|idC|idJ)\\b",
+            "match": "\\b(PathP|LineP|V|Vin|Vproj|comp|hcomp|hcom|coe|transport|fill|Glue|glue|unglue|Id|idC|idJ)\\b",
             "name": "keyword.control.cubicaltt"
         },
         {
