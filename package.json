@@ -1,8 +1,8 @@
 {
-    "name": "cubicaltt",
-    "displayName": "cubicaltt",
-    "version": "0.0.3",
-    "description": "cubicaltt (yacctt) syntax highlighting for Visual Studio Code",
+    "name": "cubical",
+    "displayName": "cubical",
+    "version": "0.0.4",
+    "description": "cubicaltt/yacctt syntax highlighting for Visual Studio Code",
     "publisher": "siegmentationfault",
     "categories": [
         "Programming Languages"
@@ -16,16 +16,16 @@
     },
     "contributes": {
         "languages": [{
-            "id": "cubicaltt",
+            "id": "cubical",
             "extensions": [
-                ".ctt", ".ytt"
+                ".tt", ".ctt", ".ytt"
             ],
             "configuration": "./cubical-configuration.json"
         }],
         "grammars": [{
-                "language": "cubicaltt",
-                "scopeName": "source.cubicaltt",
-                "path": "./syntaxes/cubicaltt.tmLanguage.json"
+                "language": "cubical",
+                "scopeName": "source.cubical",
+                "path": "./syntaxes/cubical.tmLanguage.json"
         }]
     }
 }

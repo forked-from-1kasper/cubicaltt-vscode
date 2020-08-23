@@ -1,5 +1,5 @@
 {
-    "name": "cubicaltt",
+    "name": "cubical",
     "fileTypes": [
         "ctt", "ytt"
     ],
@@ -7,32 +7,32 @@
         {
             "begin": "{-",
             "end": "-}",
-            "name": "comment.block.cubicaltt"
+            "name": "comment.block.cubical"
         },
         {
             "match": "--.*$",
-            "name": "comment.line.double-dash.cubicaltt"
+            "name": "comment.line.double-dash.cubical"
         },
         {
             "match": "\\b(hdata|data|import|mutual|let|in|split|with|module|where|U|opaque|transparent|transparent_all)\\b",
-            "name": "keyword.other.cubicaltt"
+            "name": "keyword.other.cubical"
         },
         {
             "match": "\\b(PathP|LineP|V|Vin|Vproj|comp|hcomp|hcom|com|coe|transport|fill|Glue|glue|unglue|Id|idC|idJ)\\b",
-            "name": "keyword.control.cubicaltt"
+            "name": "keyword.control.cubical"
         },
         {
             "match": "(:|->|=|\\\\|\\*|_|<|>|\\/|/\\\\|-|@)",
-            "name": "keyword.other.cubicaltt"
+            "name": "keyword.other.cubical"
         },
         {
             "match": "^[[:word:]']+",
-            "name": "entity.name.function.cubicaltt"
+            "name": "entity.name.function.cubical"
         },
         {
             "match": "\\b(undefined|primitive)\\b",
-            "name": "invalid.illegal.cubicaltt"
+            "name": "invalid.illegal.cubical"
         }
     ],
-    "scopeName": "source.cubicaltt"
+    "scopeName": "source.cubical"
 }
