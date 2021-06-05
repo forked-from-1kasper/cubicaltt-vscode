@@ -1,7 +1,7 @@
 {
     "name": "cubical",
     "fileTypes": [
-        "ctt", "ytt"
+        "tt", "ctt", "ytt", "anders"
     ],
     "patterns": [
         {

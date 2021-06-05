@@ -18,7 +18,7 @@
         "languages": [{
             "id": "cubical",
             "extensions": [
-                ".tt", ".ctt", ".ytt"
+                ".tt", ".ctt", ".ytt", ".anders"
             ],
             "configuration": "./cubical-configuration.json"
         }],
