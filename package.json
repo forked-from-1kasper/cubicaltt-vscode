@@ -1,7 +1,7 @@
 {
     "name": "cubical",
     "displayName": "cubical",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "cubicaltt/yacctt syntax highlighting for Visual Studio Code",
     "publisher": "siegmentationfault",
     "categories": [
