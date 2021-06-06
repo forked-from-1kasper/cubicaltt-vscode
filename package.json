@@ -1,7 +1,7 @@
 {
     "name": "cubical",
     "displayName": "cubical",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "cubicaltt/yacctt syntax highlighting for Visual Studio Code",
     "publisher": "siegmentationfault",
     "categories": [
@@ -18,7 +18,7 @@
         "languages": [{
             "id": "cubical",
             "extensions": [
-                ".tt", ".ctt", ".ytt", ".anders"
+                ".tt", ".ctt", ".ytt"
             ],
             "configuration": "./cubical-configuration.json"
         }],
